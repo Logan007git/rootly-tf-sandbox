@@ -28,3 +28,15 @@ resource "rootly_environment" "production" {
   description = "Core Production Environment"
   color       = "#00FF00"
 }
+
+resource "rootly_service" "cy_prod" {
+  name        = "CY PROD"
+  description = "Primary production environment alerts migrated from Spike.sh routing."
+  color       = "#E11D48"
+}
+
+resource "rootly_service" "ecs_services" {
+  name        = "ECS Services"
+  description = "ECS cluster monitoring and incident tracking."
+  color       = "#2563EB"
+}
