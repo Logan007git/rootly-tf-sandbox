@@ -24,7 +24,7 @@ resource "rootly_severity" "sev_2" {
 }
 
 resource "rootly_environment" "production" {
-  name        = "Production"
+  name        = "TF-Production"
   description = "Core Production Environment"
   color       = "#00FF00"
 }
