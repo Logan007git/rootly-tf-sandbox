@@ -45,3 +45,4 @@ resource "rootly_form" "New_1" {
   name        = "Form-1"
   description = "Desc"
   color       = "#2563EB"
+}
