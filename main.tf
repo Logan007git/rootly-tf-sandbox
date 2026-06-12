@@ -40,3 +40,8 @@ resource "rootly_service" "ecs_services" {
   description = "ECS cluster monitoring and incident tracking."
   color       = "#2563EB"
 }
+
+resource "rootly_form" "New_1" {
+  name        = "Form-1"
+  description = "Desc"
+  color       = "#2563EB"
